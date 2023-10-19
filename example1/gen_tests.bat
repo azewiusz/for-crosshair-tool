@@ -1,0 +1,3 @@
+crosshair cover --example_output_format=pytest --coverage_type opcode --per_condition_timeout=15 main.example_logic_with_enum_without_custom_repr > ./tests/tests_no_repr.py
+crosshair cover --example_output_format=pytest --coverage_type opcode --per_condition_timeout=15 main.example_logic_with_enum_with_repr > ./tests/tests_repr.py
+crosshair cover --example_output_format=pytest --coverage_type opcode --per_condition_timeout=15 main.example_logic_with_enum_with_dataclass > ./tests/tests_dataclass.py
